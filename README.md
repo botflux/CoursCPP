@@ -30,10 +30,9 @@ Pour pouvoir assigner une adresse à un pointeur, il faut utiliser l'opérateur
 
 Assignation pour un entier:
 
-  // entier a assigner
-  int entier = 2;
-  // pointeur
-  int \*ptr;
-
-  // assignation du poiteur
-  ptr = &entier;
+    // entier a assigner
+    int entier = 2;
+    // pointeur
+    int \*ptr;
+    // assignation du poiteur
+    ptr = &entier;
