@@ -15,11 +15,11 @@ mémoire pointée. Cependant il faut ajouter une étoile (\*) avant l'identifica
 
 La déclaration d'un pointeur sur un entier:
 
-    int \*int_Ptr;
+    int *int_Ptr;
 
 La déclaration d'un pointeur sur un double:
 
-    double \*dbl_Ptr;
+    double *dbl_Ptr;
 
 ## Assigner une adresse à un pointeur:
 
