@@ -8,7 +8,7 @@ Un pointeur est une variable qui contient l'adresse d'une case mémoire pour val
 
 ## Synthaxe:
 
-Une variable qui pointe sur une case mémoire aura le même type que la case la
+Un pointeur sur une case mémoire aura le même type que la case la
 mémoire pointée. Cependant il faut ajouter une étoile (\*) avant l'identificateur.
 
 ### Exemple:
@@ -48,3 +48,6 @@ pointeur par une étoile (\*).
     int *ptr = &i; // ptr vaut l'adresse de i
     int j = *ptr; // j vaut la valeur pointée par ptr soit 5
     
+
+# Tableaux
+
