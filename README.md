@@ -49,5 +49,32 @@ pointeur par une étoile (\*).
     int j = *ptr; // j vaut la valeur pointée par ptr soit 5
     
 
-# Tableaux
+# Structures
 
+## Déclarer une structure
+
+Une structure se définit de la manière suivante:
+
+    typedef struct nom
+    {
+       // champs de la structure
+    } NomDeLaStructure;
+    
+nom: Un nom à titre indicatif, ce nom ne sera pas utilisé dans le programme.
+NomDeLaStructure: Le nom de la structure dans le programme.
+
+### Exemples:
+
+Création d'une structure "Point" qui va représenter un point dans un espace en 2D.
+
+    typedef struct point
+    {
+        int x;
+        int y;
+    } POINT;
+    
+On pourra utilisé point de cette manière:
+
+    POINT p; // création de la variable du type de la structure
+    p.x = valueX; // accès au champs x de la structure point
+    p.y = valueY; // accès au champs y de la structure point
