@@ -78,3 +78,19 @@ On pourra utilisé point de cette manière:
     POINT p; // création de la variable du type de la structure
     p.x = valueX; // accès au champs x de la structure point
     p.y = valueY; // accès au champs y de la structure point
+    
+## Passer en paramètre une structure
+
+Pour pouvoir passer en paramètre d'une fonction une structure, il faut utiliser
+un pointeur sur l'instance de la structure.
+
+### Exemples:
+
+    POINT p;
+    POINT *ptr = &p;
+    
+    funct(ptr);
+    
+    // signature de la fonction
+    void funct (POINT *ptr);
+    
