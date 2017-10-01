@@ -94,3 +94,29 @@ un pointeur sur l'instance de la structure.
     // signature de la fonction
     void funct (POINT *ptr);
     
+# Classes:
+
+Les classes sont les élèments centraux de tout programme C++.Tout les programmes en C++ en sont composés.
+
+## Qu'est ce qu'une classe:
+
+Une classe désigne un type plus complexe que les types valeurs (float, int par exemple). Une classe contient:
+
+- des variables, appelées champs ou attributs de la classe;
+- des fonctions, appelées méthodes, qui vont effectuer des opérations sur les champs de la classe;
+- des propriétés et des indexeurs.
+
+ ## Les objects:
+ 
+ Une classe consiste en une définition d'informations, à l'usage du compilateur. L'objet tant qu'à lui représente une variable du type de la classe donnée. On parle aussi d'instance et d'instanciation de la classe, qui désigne l'opération de création d'un objet.
+ 
+ Lors de l'instantiation la classe devient concrète, c'est-à-dire que l'instance occupe de la place en mémoire lors de l'éxecution du programme.
+ 
+ ## Définition d'une classe:
+ 
+ La définition d'une classe est séparée en deux fichiers:
+ 
+ - Le fichier d'en-tête, ce fichier contient les champs de la classe c'est-à-dire ses variables membres, ansi que l'en-tête de chaque fonction;
+ - Le fichier source, ce fichier contient le corps des éléments définit dans le fichier d'en-tête, par exemple le fichier source va contenir le contenu des méthodes de la classe.
+ 
+ 
